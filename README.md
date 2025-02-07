@@ -27,12 +27,14 @@ ClatsGuard File Encryptor is a Python-based GUI application for securely encrypt
 **Installation**
 
 1. Clone or download this repository.
-2. Install the required Python libraries:
+2. 
+3. Install the required Python libraries:
    pip install cryptography
 
 **Key Management**
 
-•	Passphrase-Derived Keys: You can generate a key from any passphrase. It is recommended to use a strong passphrase for better security.
+•	Passphrase-Derived Keys: You can generate a key from any passphrase. It is recommended to use a strong passphrase for better security
+
 •	Hex Keys: If you already have a 256-bit hex key, you can directly paste it into the key field.
 
 **Encryption Workflow**
@@ -54,11 +56,13 @@ Paste an existing 256-bit hex key into the "Enter Key" field.
 **Advanced Configuration**
 
 •	Iteration Count: Currently set to 300,000 iterations for PBKDF2-HMAC. For specialized requirements, modify this value in the source code. Higher iterations add more security, but slow down the key derivation process.
+
 •	Allowed File Extensions: Expand or reduce the set of allowed file types by editing the ALLOWED_EXTENSIONS set in the source code.
 
 **Troubleshooting**
 
 •	Invalid Key Error: Ensure you are using the correct passphrase or hex key. The tool expects a 64-character hex string for a direct key, corresponding to 256-bits.
+
 •	Missing cryptography: Run pip install cryptography. On some systems, you might need to install additional dev libraries or upgrade pip/setuptools.
 
 **FAQ**
