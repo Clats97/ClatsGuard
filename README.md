@@ -1,8 +1,7 @@
 # ClatsGuard
 Secure your documents with this Python AES-256-GCM file encryptor with PBKDF2-HMAC key derivation, passphrase-based or hex key usage, and a Tkinter GUI for user-friendly encryption. Open-sourced. This project was peer reviewed by a CompTIA Security+ person.
 
-![clatssguard](https://github.com/user-attachments/assets/62d98bb6-529b-4e9d-87e7-19cbd905805f)
-
+![Screenshot 2025-02-07 131933](https://github.com/user-attachments/assets/8c8a90c0-aab4-4f7c-86df-bf6c6310953b)
 
 # ClatsGuard File Encryptor (AES-256-GCM with PBKDF2-HMAC)
 
