@@ -74,4 +74,6 @@ A: Yes, though memory usage will be proportional to file size. For large files, 
 Q: Does this tool work on MacOS and Linux?
 A: Yes, as long as Tkinter and the cryptography library are properly installed.
 
+Copyright 2025 Joshua M Clatney (Clats97) All Rights Reserved
+
 **DISCLAIMER: This project comes with no warranty, express or implied. The author is not responsible for abuse, misuse, or vulnerabilities. Please use responsibly and ethically in accordance with relevant laws, regulations, legislation and best practices.**
