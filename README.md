@@ -66,13 +66,12 @@ Paste an existing 256-bit hex key into the "Enter Key" field.
 **FAQ**
 
 Q: Can I encrypt large files?
+
 A: Yes, though memory usage will be proportional to file size. For large files, consider streaming approaches.
+
 Q: Does this tool work on MacOS and Linux?
+
 A: Yes, as long as Tkinter and the cryptography library are properly installed.
-
-
-
-
 
 Copyright 2025 Joshua M Clatney (Clats97) All Rights Reserved
 
