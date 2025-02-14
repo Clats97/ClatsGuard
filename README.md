@@ -1,6 +1,6 @@
 # ClatsGuard File Encryptor (AES-256-GCM with PBKDF2-HMAC)
 
-**Version:** 1.00  
+**Version:** 1.01
 **Author:** Joshua M Clatney aka (Clats97)- Ethical Pentesting Enthusiast 
 
 ![Screenshot 2025-02-07 131933](https://github.com/user-attachments/assets/8c8a90c0-aab4-4f7c-86df-bf6c6310953b)
