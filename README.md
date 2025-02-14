@@ -26,8 +26,7 @@ ClatsGuard File Encryptor is a Python-based GUI application for securely encrypt
 **Installation**
 
 1. Clone or download this repository.
-2. 
-3. Install the required Python libraries:
+2. Install the required Python libraries:
    pip install cryptography
 
 **Key Management**
