@@ -63,16 +63,12 @@ Paste an existing 256-bit hex key into the "Enter Key" field.
 
 •	Missing cryptography: Run pip install cryptography. On some systems, you might need to install additional dev libraries or upgrade pip/setuptools.
 
-**FAQ**
+**Author**
 
-Q: Can I encrypt large files?
+Joshua M Clatney (Clats97)
 
-A: Yes, though memory usage will be proportional to file size. For large files, consider streaming approaches.
+Ethical Pentesting Enthusiast
 
-Q: Does this tool work on MacOS and Linux?
-
-A: Yes, as long as Tkinter and the cryptography library are properly installed.
-
-Copyright 2025 Joshua M Clatney (Clats97) All Rights Reserved
+Copyright 2025 Joshua M Clatney (Clats97)
 
 **DISCLAIMER: This project comes with no warranty, express or implied. The author is not responsible for abuse, misuse, or vulnerabilities. Please use responsibly and ethically in accordance with relevant laws, regulations, legislation and best practices.**
