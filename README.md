@@ -1,17 +1,17 @@
-# ClatsGuard File Encrypter (AES-256-GCM with PBKDF2-HMAC)
+# ClatsGuard File Encrypter (ChaCha20-Poly1305 & AES-GCM-SIV cascade w/ Argon2id)
 
-**Version:** 1.01
+**Version:** 1.03
 **Author:** Joshua M Clatney aka (Clats97)- Ethical Pentesting Enthusiast 
 
-![Screenshot 2025-02-07 131933](https://github.com/user-attachments/assets/8c8a90c0-aab4-4f7c-86df-bf6c6310953b)
+<img width="968" height="816" alt="Screenshot 2025-09-21 110204" src="https://github.com/user-attachments/assets/d4486312-bbc4-40bf-b23c-d411845fd7d5" />
 
 **Overview**
-ClatsGuard File Encryptor is a Python-based GUI application for securely encrypting and decrypting files. It uses AES-256-GCM for authenticated encryption, and PBKDF2-HMAC for key derivation from a user-provided passphrase.
+ClatsGuard File Encryptor is a Python-based GUI application for securely encrypting and decrypting files. It first uses ChaCha20-Poly1305, then AES-GCM-SIV with256 bit keys for strong authenticated encryption, andArgon2id with high memory cost for key derivation from a user-provided passphrase.
 
 **Key Features**
 
-- **AES-256-GCM**: Ensures data confidentiality and integrity with authenticated encryption.
-- **PBKDF2-HMAC Key Derivation**: Strengthens passphrase-based keys with salt and multiple iterations.
+- **ChaCha20-Poly1305 & AES-GCM-SIV**: Ensures data confidentiality and integrity with dual authenticated encryption.
+- **Argon2id Key Derivation**: Strengthens passphrase-based keys with salt and high memory cost with multiple iterations.
 - **Hex Key Support**: Allows use of raw 256-bit hex keys if you already have them.
 - **Hex Key Generation**: Generates secure 256-bit keys if neccessary.
 - **GUI with Tkinter**: User-friendly interface for easy file selection and encryption/decryption.
@@ -31,7 +31,7 @@ ClatsGuard File Encryptor is a Python-based GUI application for securely encrypt
 
 **Key Management**
 
-•	Passphrase-Derived Keys: You can generate a key from any passphrase. It is recommended to use a strong passphrase for better security
+•	Passphrase-Derived Keys: You can generate a key from any passphrase. It is recommended to use a strong passphrase for better security.
 
 •	Hex Keys: If you already have a 256-bit hex key, you can directly paste it into the key field.
 
@@ -53,7 +53,7 @@ Paste an existing 256-bit hex key into the "Enter Key" field.
 
 **Advanced Configuration**
 
-•	Iteration Count: Currently set to 300,000 iterations for PBKDF2-HMAC. For specialized requirements, modify this value in the source code. Higher iterations add more security, but slow down the key derivation process.
+•	Memory cost: Argon2id parameters are 2GiB of memory cost, 10 iterations, and 10 lanes. For specialized requirements, modify this value in the code. Higher memory & iterations add more security, but slow down the key derivation process.
 
 •	Allowed File Extensions: Expand or reduce the set of allowed file types by editing the ALLOWED_EXTENSIONS set in the source code.
 
