@@ -1,12 +1,13 @@
 # ClatsGuard File Encrypter (ChaCha20-Poly1305 & AES-GCM-SIV cascade w/ Argon2id)
 
 **Version:** 1.03
+
 **Author:** Joshua M Clatney aka (Clats97)- Ethical Pentesting Enthusiast 
 
 <img width="968" height="816" alt="Screenshot 2025-09-21 110204" src="https://github.com/user-attachments/assets/d4486312-bbc4-40bf-b23c-d411845fd7d5" />
 
 **Overview**
-ClatsGuard File Encrypter is a Python-based GUI application for securely encrypting and decrypting files. It first uses ChaCha20-Poly1305, then AES-GCM-SIV with256 bit keys for strong authenticated encryption, andArgon2id with high memory cost for key derivation from a user-provided passphrase.
+NOTE: ClatsGuard "classic" has been deprecated in favor of ClatsGuard Heavy, which is far more sophisticated. ClatsGuard File Encrypter, a Python-based GUI application for securely encrypting and decrypting files, uses ChaCha20-Poly1305, then AES-GCM-SIV with 256 bit keys for strong authenticated encryption, and Argon2id with a high memory cost for key derivation from a user-provided passphrase.
 
 **Key Features**
 
