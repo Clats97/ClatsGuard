@@ -6,7 +6,7 @@
 <img width="968" height="816" alt="Screenshot 2025-09-21 110204" src="https://github.com/user-attachments/assets/d4486312-bbc4-40bf-b23c-d411845fd7d5" />
 
 **Overview**
-ClatsGuard File Encryptor is a Python-based GUI application for securely encrypting and decrypting files. It first uses ChaCha20-Poly1305, then AES-GCM-SIV with256 bit keys for strong authenticated encryption, andArgon2id with high memory cost for key derivation from a user-provided passphrase.
+ClatsGuard File Encrypter is a Python-based GUI application for securely encrypting and decrypting files. It first uses ChaCha20-Poly1305, then AES-GCM-SIV with256 bit keys for strong authenticated encryption, andArgon2id with high memory cost for key derivation from a user-provided passphrase.
 
 **Key Features**
 
